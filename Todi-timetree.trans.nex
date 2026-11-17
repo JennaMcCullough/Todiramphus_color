@@ -1,0 +1,204 @@
+#NEXUS
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 96;
+	TAXLABELS
+		Todiramphus_sacer_ornatus
+		Todiramphus_sordidus_pilbara
+		Todiramphus_albicilla_albicilla
+		Todiramphus_albicilla_orii
+		Todiramphus_albicilla_owstoni
+		Todiramphus_albonotatus
+		Todiramphus_australasia_australasia
+		Todiramphus_australasia_dammerianus
+		Todiramphus_australasia_interposita
+		Todiramphus_australasia_odites
+		Todiramphus_australasia_tringorum
+		Todiramphus_chloris_abyssinicus
+		Todiramphus_chloris_armstrongi
+		Todiramphus_chloris_azelus
+		Todiramphus_chloris_chloris
+		Todiramphus_chloris_chloropterus
+		Todiramphus_chloris_collaris
+		Todiramphus_chloris_davisoni
+		Todiramphus_chloris_humii
+		Todiramphus_chloris_kalbaensis
+		Todiramphus_chloris_laubmannianus
+		Todiramphus_chloris_occipitalis
+		Todiramphus_chloris_palmeri
+		Todiramphus_chloris_teraokai
+		Todiramphus_chloris_vidali
+		Todiramphus_cinnamominus
+		Todiramphus_colonus
+		Todiramphus_diops
+		Todiramphus_enigma
+		Todiramphus_farquhari
+		Todiramphus_funebris
+		Todiramphus_gertrudae
+		Todiramphus_godeffroyi
+		Todiramphus_lazuli
+		Todiramphus_leucopygius
+		Todiramphus_macleayii_elisabeth
+		Todiramphus_macleayii_incinctus
+		Todiramphus_macleayii_macleayii
+		Todiramphus_nigrocyaneus_nigrocyaneus
+		Todiramphus_nigrocyaneus_quadricolor
+		Todiramphus_nigrocyaneus_stictolaemus
+		Todiramphus_pelewensis
+		Todiramphus_pyrrhopygius
+		Todiramphus_recurvirostris
+		Todiramphus_reichenbachii
+		Todiramphus_ruficollaris
+		Todiramphus_sacer_amoenus
+		Todiramphus_sacer_aneityum
+		Todiramphus_sacer_brachyurus
+		Todiramphus_sacer_erromangae
+		Todiramphus_sacer_eximius
+		Todiramphus_sacer_juliae
+		Todiramphus_sacer_mala
+		Todiramphus_sacer_manuae
+		Todiramphus_sacer_marinus
+		Todiramphus_sacer_melanodera
+		Todiramphus_sacer_pavuvu
+		Todiramphus_sacer_pealei
+		Todiramphus_sacer_regina
+		Todiramphus_sacer_sacer
+		Todiramphus_sacer_santoensis
+		Todiramphus_sacer_solomonis
+		Todiramphus_sacer_sororum
+		Todiramphus_sacer_tannensis
+		Todiramphus_sacer_torresianus
+		Todiramphus_sacer_tucopia
+		Todiramphus_sacer_utupuae
+		Todiramphus_sacer_vicina
+		Todiramphus_sacer_vitiensis
+		Todiramphus_sanctus_canacorum
+		Todiramphus_sanctus_macmillani
+		Todiramphus_sanctus_norfolkiensis
+		Todiramphus_sanctus_sanctus
+		Todiramphus_sanctus_vagans
+		Todiramphus_saurophagus_admiralitatis
+		Todiramphus_saurophagus_anachoreta
+		Todiramphus_saurophagus_saurophagus
+		Todiramphus_sordidus_colcloughi
+		Todiramphus_sordidus_sordidus
+		Todiramphus_tristrami_alberti
+		Todiramphus_tristrami_bennetti
+		Todiramphus_tristrami_matthiae
+		Todiramphus_tristrami_novaehiberniae
+		Todiramphus_tristrami_nusae
+		Todiramphus_tristrami_stresemanni
+		Todiramphus_tristrami_tristrami
+		Todiramphus_tutus_atiu
+		Todiramphus_tutus_mauke
+		Todiramphus_tutus_tutus
+		Todiramphus_veneratus_veneratus
+		Todiramphus_veneratus_youngi
+		Todiramphus_winchelli_alfredi
+		Todiramphus_winchelli_mindanensis
+		Todiramphus_winchelli_nesydrionetes
+		Todiramphus_winchelli_nigrorum
+		Todiramphus_winchelli_winchelli
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Todiramphus_sacer_ornatus,
+		2	Todiramphus_sordidus_pilbara,
+		3	Todiramphus_albicilla_albicilla,
+		4	Todiramphus_albicilla_orii,
+		5	Todiramphus_albicilla_owstoni,
+		6	Todiramphus_albonotatus,
+		7	Todiramphus_australasia_australasia,
+		8	Todiramphus_australasia_dammerianus,
+		9	Todiramphus_australasia_interposita,
+		10	Todiramphus_australasia_odites,
+		11	Todiramphus_australasia_tringorum,
+		12	Todiramphus_chloris_abyssinicus,
+		13	Todiramphus_chloris_armstrongi,
+		14	Todiramphus_chloris_azelus,
+		15	Todiramphus_chloris_chloris,
+		16	Todiramphus_chloris_chloropterus,
+		17	Todiramphus_chloris_collaris,
+		18	Todiramphus_chloris_davisoni,
+		19	Todiramphus_chloris_humii,
+		20	Todiramphus_chloris_kalbaensis,
+		21	Todiramphus_chloris_laubmannianus,
+		22	Todiramphus_chloris_occipitalis,
+		23	Todiramphus_chloris_palmeri,
+		24	Todiramphus_chloris_teraokai,
+		25	Todiramphus_chloris_vidali,
+		26	Todiramphus_cinnamominus,
+		27	Todiramphus_colonus,
+		28	Todiramphus_diops,
+		29	Todiramphus_enigma,
+		30	Todiramphus_farquhari,
+		31	Todiramphus_funebris,
+		32	Todiramphus_gertrudae,
+		33	Todiramphus_godeffroyi,
+		34	Todiramphus_lazuli,
+		35	Todiramphus_leucopygius,
+		36	Todiramphus_macleayii_elisabeth,
+		37	Todiramphus_macleayii_incinctus,
+		38	Todiramphus_macleayii_macleayii,
+		39	Todiramphus_nigrocyaneus_nigrocyaneus,
+		40	Todiramphus_nigrocyaneus_quadricolor,
+		41	Todiramphus_nigrocyaneus_stictolaemus,
+		42	Todiramphus_pelewensis,
+		43	Todiramphus_pyrrhopygius,
+		44	Todiramphus_recurvirostris,
+		45	Todiramphus_reichenbachii,
+		46	Todiramphus_ruficollaris,
+		47	Todiramphus_sacer_amoenus,
+		48	Todiramphus_sacer_aneityum,
+		49	Todiramphus_sacer_brachyurus,
+		50	Todiramphus_sacer_erromangae,
+		51	Todiramphus_sacer_eximius,
+		52	Todiramphus_sacer_juliae,
+		53	Todiramphus_sacer_mala,
+		54	Todiramphus_sacer_manuae,
+		55	Todiramphus_sacer_marinus,
+		56	Todiramphus_sacer_melanodera,
+		57	Todiramphus_sacer_pavuvu,
+		58	Todiramphus_sacer_pealei,
+		59	Todiramphus_sacer_regina,
+		60	Todiramphus_sacer_sacer,
+		61	Todiramphus_sacer_santoensis,
+		62	Todiramphus_sacer_solomonis,
+		63	Todiramphus_sacer_sororum,
+		64	Todiramphus_sacer_tannensis,
+		65	Todiramphus_sacer_torresianus,
+		66	Todiramphus_sacer_tucopia,
+		67	Todiramphus_sacer_utupuae,
+		68	Todiramphus_sacer_vicina,
+		69	Todiramphus_sacer_vitiensis,
+		70	Todiramphus_sanctus_canacorum,
+		71	Todiramphus_sanctus_macmillani,
+		72	Todiramphus_sanctus_norfolkiensis,
+		73	Todiramphus_sanctus_sanctus,
+		74	Todiramphus_sanctus_vagans,
+		75	Todiramphus_saurophagus_admiralitatis,
+		76	Todiramphus_saurophagus_anachoreta,
+		77	Todiramphus_saurophagus_saurophagus,
+		78	Todiramphus_sordidus_colcloughi,
+		79	Todiramphus_sordidus_sordidus,
+		80	Todiramphus_tristrami_alberti,
+		81	Todiramphus_tristrami_bennetti,
+		82	Todiramphus_tristrami_matthiae,
+		83	Todiramphus_tristrami_novaehiberniae,
+		84	Todiramphus_tristrami_nusae,
+		85	Todiramphus_tristrami_stresemanni,
+		86	Todiramphus_tristrami_tristrami,
+		87	Todiramphus_tutus_atiu,
+		88	Todiramphus_tutus_mauke,
+		89	Todiramphus_tutus_tutus,
+		90	Todiramphus_veneratus_veneratus,
+		91	Todiramphus_veneratus_youngi,
+		92	Todiramphus_winchelli_alfredi,
+		93	Todiramphus_winchelli_mindanensis,
+		94	Todiramphus_winchelli_nesydrionetes,
+		95	Todiramphus_winchelli_nigrorum,
+		96	Todiramphus_winchelli_winchelli
+	;
+	TREE * UNTITLED = [&R] (((((((((((((((((((12:0.3257685284,25:0.3257685284):0.1761755983,20:0.5019441266):0.252216855,(18:0.3464117433,22:0.3464117433):0.4077492383):0.1976101037,(16:0.6695339838,19:0.6695339838):0.2822371016):0.1326910969,14:1.084462182):0.1413882621,23:1.225850444):0.2080421672,(((17:0.66385775,24:0.66385775):0.3161477172,21:0.9800054672):0.1485891131,13:1.12859458):0.3052980312):0.3163096731,(15:1.102862986,29:1.102862986):0.6473392982):0.4913643366,((78:0.7972815229,79:0.7972815229):0.5570225119,2:1.354304035):0.8872625864):0.3776211004,((((((((57:0.5398908888,80:0.5398908888):0.1748384997,53:0.7147293885):0.1098971054,81:0.8246264938):0.1860626427,((83:0.6102215327,84:0.6102215327):0.2375978864,86:0.8478194191):0.1628697174):0.1553893254,85:1.166078462):0.2245699528,82:1.390648415):0.3395791717,(((3:0.3690914564,5:0.3690914564):0.1512553328,4:0.5203467892):0.5112589246,((75:0.3276477869,76:0.3276477869):0.2116587535,77:0.5393065404):0.4922991734):0.6986218726):0.4186847928,27:2.148912379):0.4702753423):0.5213570202,((((70:1.320641794,74:1.320641794):0.4968277421,73:1.817469536):0.2684546881,72:2.085924224):0.2650498562,71:2.35097408):0.7895706619):0.3291118262,((((((((((((((52:0.5875017472,61:0.5875017472):0.1778208682,65:0.7653226154):0.1435062425,(62:0.3855780197,63:0.3855780197):0.5232508382):0.1606427448,(((50:0.4558229248,64:0.4558229248):0.2244033397,66:0.6802262646):0.2011971123,48:0.8814233769):0.1880482258):0.1353941851,((((51:0.616453812,69:0.616453812):0.186433354,55:0.8028871661):0.1238760327,((54:0.384621847,58:0.384621847):0.3691822693,60:0.7538041163):0.1729590824):0.1729769506,47:1.099740149):0.1051256385):0.06733454185,(56:0.812119076,67:0.812119076):0.4600812536):0.1212039402,1:1.39340427):0.1255597126,68:1.518963983):0.1737922825,49:1.692756265):0.3018135446,45:1.99456981):0.2034986667,59:2.198068476):0.3292497855,44:2.527318262):0.3557266892,(((((88:0.4357849547,89:0.4357849547):0.1918182614,87:0.6276032161):0.2305433214,32:0.8581465375):0.2895986236,((90:0.6370150502,91:0.6370150502):0.2558055826,46:0.8928206328):0.2549245283):0.2702538105,33:1.417998972):1.465045979):0.284479429,(26:2.342160192,42:2.342160192):0.8253641882):0.3021321881):0.37347452,30:3.843131088):0.7625121437,((((7:0.3341650544,11:0.3341650544):0.1556259329,9:0.4897909873):0.1563756821,8:0.6461666694):0.7893259546,10:1.435492624):3.170150608):0.6798954389,(((((37:1.077564054,38:1.077564054):0.4353851281,36:1.512949182):0.5861966638,(28:1.693190914,34:1.693190914):0.4059549323):0.2701139358,35:2.369259782):0.9891019261,6:3.358361708):1.927176963):0.700464311,43:5.986002982):1.999174456,31:7.985177438):1.333542377,((((94:0.6290002463,95:0.6290002463):0.2370225901,93:0.8660228364):0.1022863628,96:0.9683091991):0.1371133983,92:1.105422597):8.213297218):1.579376881,((39:0.808500818,41:0.808500818):0.8737370724,40:1.68223789):9.215858806):0;
+END;
