@@ -3,7 +3,7 @@
 # Written by Jenna McCullough 
 # 17 November 2026 
 
-# There are five main parts to this code: 
+# There are six main parts to this code: 
 # 1. Calculating diversification with CLaDS and ES metrics. 
 # 
 # 2. Creation of excel files from spectra that have averaged X,Y,Z coordinates 
