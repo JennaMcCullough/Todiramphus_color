@@ -163,6 +163,26 @@ ggplot(data=sex_diffs, aes(x=clads, y=es)) +
 # directory. 
 
 load("specs4_metaclean4-final-extra-cleaning.rda")
+#this file has two files, meta_clean4 and specs4  
+# the numbers are just the versions of these datasets. 
+# I should've renamed them before I submitted it to Dryad, my appologies! 
+
+#meta_clean4 is the metadata for all the specs. Each spec is a row. 
+str(meta_clean4)
+View(meta_clean4)
+# columns: 
+#V1 is the specimen accession number 
+# V2 is the patch 
+# Sex and taxon are self explanatory 
+# specID is what this is named in the specs4 dataset
+
+#specs4 is the spectral reflectance data. 
+View(specs4)
+# The first column is the wavelength. 
+# Each column after that is a specific averaged measurement for an individual's 
+# color at that patch. Remember these are three averaged scans. 
+# The columns of specs4 correspond to the specID column of meta_clean4 
+
 
 # you can see all these data like this! 
 # Plot spectra according to their human-perceived colors
