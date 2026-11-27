@@ -7,7 +7,11 @@ Study from the publisher's website: https://www.cell.com/current-biology/abstrac
 
 If you need a copy, PLEASE email me! If I don't respond in a couple days, please email me again! 
 
-Website for the Dryad: (it's getting published soon, need to add when it's out). 
+Website for the Dryad: 
+https://datadryad.org/dataset/doi:10.5061/dryad.dv41ns2f4 
+
+Website for the additional results (discussing time calibration and sensitivity analyses): 
+https://zenodo.org/records/24322666
 
 What is not included in this code are details for time calibration. Please see the Dryad for these files. 
 
@@ -30,7 +34,7 @@ Using the sex-specific files for chromatic and achromatic color, we will estimat
 We will A) calculating dichromatism, as well as testing whether colordist vs. Euclidian distances give us the same general answers; B) calculating island size metrics, and C) log transform island sizes and sympatry values.   
  
 ## PART 5. Testing drivers of rapid color evolution with linear and phylogenetic linear models. 
-We will also plot these (representing many of the plots in figures S7 - S14. 
+We will also plot many of the supplemental figures, including figures S7 - S14. 
 
 ## PART 6. Sensitivity tests for heterozygosity. 
 We specifically will look at different ways to account for the potential bias that short branches may have when trying to understand the rate of trait changes. We address three questions: 1. Are heterozygosity estimates are uncorrelated with taxon age (i.e. terminal branch length in the tree)? 2. Do relationships persist when using colour rates derived from lambda-scaled trees? 3. Do relationships  persist when including taxon age (i.e. terminal branch length in the tree) as an additional predictor in the multipredictor models to account for the fact that short branches are invariably inferred to have faster rates? 
